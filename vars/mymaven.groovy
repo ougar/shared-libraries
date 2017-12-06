@@ -1,6 +1,3 @@
-import org.skat.MyLogic
-
-def call() {
-    def myLogic = new MyLogic()
-    echo "${myLogic.helloFromMyMagic()}"
+def call(name) {
+    echo "Hello " + name + " - it works!!"
 }
